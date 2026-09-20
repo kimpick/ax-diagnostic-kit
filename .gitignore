@@ -24,9 +24,13 @@ research/
 
 # 의존성
 node_modules/
-.pnp
+/.pnp
 .pnp.*
 .yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
 # Next.js
 /.next/
@@ -36,6 +40,12 @@ next-env.d.ts
 # 빌드
 /build
 /dist
+
+# 테스트
+/coverage
+
+# 인증서
+*.pem
 
 # 배포
 .vercel
