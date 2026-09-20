@@ -1,0 +1,60 @@
+# ─────────────────────────────────────────────
+# 공개 저장소입니다. 아래 항목은 절대 커밋하지 마세요.
+# ─────────────────────────────────────────────
+
+# 환경변수 (API 키)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 벤치마킹 원본·기밀 분석 문서
+# (실제 고객사명·견적·타사 시험 문항 원문 포함 — 별도 비공개 워크스페이스에서 관리)
+research/
+*.pdf
+
+# 문항·루브릭 실데이터 (공개 금지. 공개용 더미 시드만 커밋)
+/content/private/
+
+# ─────────────────────────────────────────────
+# 일반
+# ─────────────────────────────────────────────
+
+# 의존성
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# 빌드
+/build
+/dist
+
+# 배포
+.vercel
+
+# 타입스크립트
+*.tsbuildinfo
+
+# 로그
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 에디터
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
